@@ -11,8 +11,8 @@ The term "mapping" is used to construct a data structure that converts one type 
 
 I have created the following Functions:
 
-mint: a public function that adds to the total supply and increases the balance of a specified address.
-burn: a public function that subtracts from the total supply and decreases the balance of a specified address, only if the balance is greater than the value being burned.
+- mint: a public function that adds to the total supply and increases the balance of a specified address.
+- burn: a public function that subtracts from the total supply and decreases the balance of a specified address, only if the balance is greater than the value being burned.
 
 Conditional statement:
 The "if" statement is a conditional statement that executes a block of code only if a certain condition is true. In this code, the "burn" function includes an "if" statement that checks if the balance of the specified address is greater than or equal to the value being burned. If the condition is true, the code inside the "if" block will be executed, which subtracts the value from the total supply and from the balance of the specified address.
