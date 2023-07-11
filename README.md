@@ -3,9 +3,9 @@ This is a simple token contract that is built using Solidity.
 
 I have created the following variables for MyToken:
 
-tokenName: a public string variable representing the name of the token(Sweet).
-tokenAbbry: a public string variable representing the abbreviation of the token(Home).
-totalSupply: a public uint variable representing the total supply of the token.
+-tokenName: a public string variable representing the name of the token(Sweet).
+-tokenAbbry: a public string variable representing the abbreviation of the token(Home).
+-totalSupply: a public uint variable representing the total supply of the token.
 
 The term "mapping" is used to construct a data structure that converts one type of data to another. The "balances" variable in this code is a mapping that maps addresses to their associated token balances. The mapping uses the "address" type as the key and the "uint" type as the value.
 
